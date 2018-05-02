@@ -102,20 +102,21 @@ td {
 }
 
 .btn-yellow {
+  margin-top: 10px;
   position: relative;
   top: 15px;
   background-color: #FFA500;
   width: 120px;
   color: white;
   font-weight: 700;
-  padding: 10px;
-  border-radius: 20px;
+  padding: 12px 20px;
+  border-radius: 25px;
 }
 
 .btn-yellow:hover {
   border: 3px solid #FFA500;
   background-color: transparent;
-  border-radius: 20px;
+  border-radius: 25px;
 
   color: #FFA500;
 }
@@ -271,28 +272,28 @@ label {
 }
 
 input[type=submit] {
+  margin-top: 10px;
   background-color: #FFA500;
   color: white;
+  border: 3px solid #FFFFFF;
   padding: 12px 20px;
-  border: none;
   font-weight: 700;
-  border-radius: 20px;
+  border-radius: 25px;
   cursor: pointer;
   float: right;
 }
 
 
-input[type=submit:hover] {
+input[type=submit]:hover {
   border: 3px solid #FFA500;
   background-color: transparent;
-  border-radius: 20px;
+  padding: 12px 20px;
+  border-radius: 25px;
   color: #FFA500;
 }
 
 .form {
   border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
 }
 
 .col-25 {
