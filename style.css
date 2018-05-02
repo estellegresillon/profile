@@ -1,4 +1,4 @@
-/* Colors and Fonts */
+ /* Colors and Fonts */
 
 body {
   background: #EBEBEB;
@@ -6,7 +6,6 @@ body {
   font-weight: 300;
   color:  #333333;
   font-size: 15px;
-  /*line-height: 1.6em;*/
 }
 
 #crop {
@@ -54,7 +53,6 @@ a:hover{
 table {
   font-weight: 300;
   font-size: 15px;
-  line-height: 1.6em;
 }
 
 td {
@@ -73,7 +71,7 @@ td {
 }
 
 .container {
-  width: 650px;
+  width: 70%;
   margin: 50px auto;
 }
 
@@ -101,4 +99,64 @@ td {
 .list-inline li i{
   font-size: 18px;
   margin: 5px;
+}
+
+
+
+/* Fixed sidebar layout */
+
+#content{
+  margin-left: 120px;
+}
+
+#sidebar {
+  background-color: #384047;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 250px;
+  text-align: center;
+}
+
+/*#sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#sidebar li {
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+
+#sidebar a {
+  text-decoration: none;
+  font-size: 25px;
+  color:#788188;
+}
+
+#sidebar a:hover {
+  color: white;
+}*/
+
+
+
+/* Responsive layout behavior */
+
+@media (max-width: 768px) {
+  #content{
+    margin-left: 0px;
+  }
+  #sidebar {
+    display: none;
+  }
+}
+
+/*@media (max-width: 320px) {
+  #content{
+    margin-left: 0px;
+  }
+  #sidebar {
+    display: none;
+  }
 }
