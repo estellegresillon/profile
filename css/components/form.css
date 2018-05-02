@@ -1,0 +1,65 @@
+/* FORM */
+
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  margin-top: 10px;
+  background-color: #FFA500;
+  color: white;
+  border: 3px solid #FFFFFF;
+  padding: 12px 20px;
+  font-weight: 700;
+  border-radius: 25px;
+  cursor: pointer;
+  float: right;
+}
+
+
+input[type=submit]:hover {
+  border: 3px solid #FFA500;
+  background-color: transparent;
+  padding: 12px 20px;
+  border-radius: 25px;
+  color: #FFA500;
+}
+
+.form {
+  border-radius: 5px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
