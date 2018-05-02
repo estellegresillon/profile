@@ -202,6 +202,9 @@ td {
 /* Responsive layout behavior */
 
 @media (min-width: 1200px) {
+  #movies-mobile {
+    display: none;
+  }
   #content{
     margin-left: 100px;
     margin-top: -20px;
@@ -212,9 +215,13 @@ td {
   .container {
   width: 50%;
   }
+
 }
 
 @media (min-width: 900px) {
+  #movies-mobile {
+    display: none;
+  }
   #content{
     margin-left: 100px;
     margin-top: -20px;
@@ -240,5 +247,8 @@ td {
   }
   .container {
   width: 100%;
+  }
+  #movies-desktop {
+    display: none;
   }
 }
