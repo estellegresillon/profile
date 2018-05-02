@@ -115,7 +115,7 @@ td {
   top: 0px;
   bottom: 0px;
   height: 85px;
-  width: 100vh;
+  width: 100%;
 }
 
 #menu ul {
@@ -182,9 +182,10 @@ td {
 
 /* Responsive layout behavior */
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   #content{
-    margin-left: 0px;
+    margin-left: 100px;
+    margin-top: -20px;
   }
   #menu {
     display: none;
@@ -194,12 +195,15 @@ td {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   #content{
     margin-left: 0px;
   }
   #sidebar {
     display: none;
+  }
+  #menu {
+    width: 100%;
   }
   .container {
   width: 70%;
@@ -213,6 +217,9 @@ td {
   }
   #sidebar {
     display: none;
+  }
+  #menu {
+    width: 100%;
   }
   .container {
   width: 100%;
