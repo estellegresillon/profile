@@ -92,19 +92,38 @@ td {
 }
 
 .list-inline li {
-    display: inline-block;
-    padding: 20px;
+  display: inline-block;
+  padding: 20px;
 }
 
-.list-inline li i{
+.list-inline li i {
   font-size: 18px;
   margin: 5px;
+}
+
+.btn-yellow {
+  position: relative;
+  top: 15px;
+  background-color: #FFA500;
+  width: 120px;
+  color: white;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.btn-yellow:hover {
+  border: 3px solid #FFA500;
+  background-color: transparent;
+  border-radius: 20px;
+
+  color: #FFA500;
 }
 
 
 /* Fixed menu layout */
 
-#content{
+#content {
   margin-top: 120px;
 }
 
@@ -144,7 +163,7 @@ td {
 
 /* Fixed sidebar layout */
 
-#content{
+#content {
   margin-left: 100px;
 }
 
