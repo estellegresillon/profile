@@ -1,11 +1,11 @@
 /* Your tabs CSS code here */
 
 .tab.active {
-    color: black;
+    color: #384047;
     font-size: 18px;
     font-weight: bold;
     padding: 10px;
-    border-bottom: 5px solid #00A699;
+    border-bottom: 5px solid #FFA500;
 }
 
 .tab {
@@ -14,7 +14,7 @@
     padding: 10px;
     border-bottom: 5px solid transparent;
     text-decoration: none;
-    color: grey;
+    color: lightgrey;
 }
 
 
