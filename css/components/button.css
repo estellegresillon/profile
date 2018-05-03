@@ -1,0 +1,19 @@
+.btn-yellow {
+  margin-top: 10px;
+  position: relative;
+  top: 15px;
+  background-color: #FFA500;
+  width: 120px;
+  color: white;
+  font-weight: 700;
+  padding: 12px 20px;
+  border-radius: 25px;
+}
+
+.btn-yellow:hover {
+  border: 3px solid #FFA500;
+  background-color: transparent;
+  border-radius: 25px;
+
+  color: #FFA500;
+}

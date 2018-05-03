@@ -1,11 +1,17 @@
-@import url("components/form.css");
-@import url("components/menu.css");
-@import url("components/sidebar.css");
-@import url("components/inbox.css");
 @import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/form.css");
+@import url("components/inbox.css");
+@import url("components/menu.css");
+@import url("components/navbar.css");
+@import url("components/sidebar.css");
 
 
  /* Colors and Fonts */
+/*#content {
+  width: cover;
+}*/
 
 body {
   background: #EBEBEB;
@@ -13,6 +19,7 @@ body {
   font-weight: 300;
   color:  #384047;
   font-size: 15px;
+  margin: 0;
 }
 
 #crop {
@@ -32,7 +39,7 @@ h1, h2, h3 {
 }
 
 h1{
-  color: #FFA500;
+  color: white;
   font-size: 22px;
 }
 
@@ -80,7 +87,7 @@ td {
 
 .container {
   width: 70%;
-  margin: 50px auto;
+  margin: 0 auto;
 }
 
 .card {
@@ -109,71 +116,31 @@ td {
   margin: 5px;
 }
 
-.btn-yellow {
-  margin-top: 10px;
-  position: relative;
-  top: 15px;
-  background-color: #FFA500;
-  width: 120px;
-  color: white;
-  font-weight: 700;
-  padding: 12px 20px;
-  border-radius: 25px;
-}
-
-.btn-yellow:hover {
-  border: 3px solid #FFA500;
-  background-color: transparent;
-  border-radius: 25px;
-
-  color: #FFA500;
-}
-
 
 
 /* Responsive layout behavior */
-
-@media (min-width: 1200px) {
-  #movies-mobile {
-    display: none;
-  }
-  #content{
-    margin-left: 100px;
-    margin-top: -20px;
-  }
-  #menu {
-    display: none;
-  }
-  .container {
-  width: 50%;
-  }
-
-}
 
 @media (min-width: 900px) {
   #movies-mobile {
     display: none;
   }
   #content{
-    margin-left: 100px;
-    margin-top: -20px;
-  }
-  #menu {
-    display: none;
+    margin-left: 0px;
+    margin-top: -50px;
   }
   .container {
-  width: 70%;
+  width: 50%;
   }
 }
 
 @media (max-width: 900px) {
-  #content{
+  /*#content{
     margin-top: 100px;
     margin-left: 0px;
-  }
-  #sidebar {
+  }*/
+  /*#sidebar {
     display: none;
-  }
+  }*/
   #menu {
     width: 100%;
   }
